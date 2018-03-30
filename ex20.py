@@ -49,7 +49,7 @@ print("Let's print three lines:")
 #the line number as defined in the variable
 #and current_file is the input_file that we
 #open when calling upon that variable which 
-#we definied earlier in the script.
+#we defined earlier in the script.
 current_line = 1
 print_a_line(current_line, current_file)
 #current line now defined as 1 + 1 = 2, and
