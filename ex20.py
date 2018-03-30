@@ -56,8 +56,8 @@ print_a_line(current_line, current_file)
 #current_file is read as the next line in
 #sequence. This process repeats itself until
 #the end.
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
