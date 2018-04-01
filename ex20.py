@@ -9,7 +9,9 @@ script, input_file = argv
 #print_all reads the argument which will be
 #the name of a file, and the prints what it reads.
 def print_all(f):
+	print(">>> print_all: f=", f)
 	print(f.read())
+	print("<<< print_all: f=", f)
 #defining a function named rewind which takes
 #the argument f. The function itself tells 
 #the system to "seek" the beginning of the
