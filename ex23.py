@@ -20,4 +20,4 @@ def print_line(line, encoding, errors):
 
 languages = open("languages.txt", encoding="utf-8")
 
-main(languages, input_ecoding, errors)
+main(languages, input_encoding, errors)
