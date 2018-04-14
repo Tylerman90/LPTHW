@@ -34,7 +34,12 @@ print("With a string point of: {}".format(start_point))
 # it's just like with an f"" String
 print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.')
 
+start_point = start_point / 10
 
+print("We can also do that this way:")
+formula = secret_formula(start_point)
+# this is an easy way to apply a list to a format string
+print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
 
 
