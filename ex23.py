@@ -1,5 +1,5 @@
 import sys
-script, input_ecoding, error = sys.argv
+script, input_encoding, error = sys.argv
 
 
 def main(language_file, encoding, errors):
@@ -20,4 +20,4 @@ def print_line(line, encoding, errors):
 
 languages = open("languages.txt", encoding="utf-8")
 
-main(languages, input_encoding, errors)
+main(languages, input_encoding, error)
