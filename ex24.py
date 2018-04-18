@@ -32,7 +32,7 @@ beans, jars, crates = secret_formula(start_point)
 # remember that this is another way to format a string
 print("With a string point of: {}".format(start_point))
 # it's just like with an f"" String
-print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.')
+print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
 
 start_point = start_point / 10
 
