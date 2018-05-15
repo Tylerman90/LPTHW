@@ -1,5 +1,5 @@
 people = 20
-catas = 30
+cats = 30
 dogs = 15
 
 
