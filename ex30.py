@@ -13,7 +13,7 @@ else:
 if trucks > cars:
 	print("That's too many trucks.")
 elif trucks < cars:
-	print("Maybe we couls take the trucks.")
+	print("Maybe we could take the trucks.")
 else:
 	print("We still can't decide.")
 
